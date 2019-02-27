@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_calculate_payment_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/calculate_payment_activity_total_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/calculate_payment_activity_total_textView"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/calculate_payment_activity_price_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:text="11.5"/>
+            <TextView
+                android:id="@+id/calculate_payment_activity_euro_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:text="€"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="PAY WITH:"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/calculate_payment_activity_cash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CASH"
+        android:padding="15dp"
+        android:background="@drawable/buttons"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_margin="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="OR"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/dialog_background">
+
+        <TextView
+            android:id="@+id/table_details_activity_table_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="@string/table_details_activity_table_name_textView"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/table_details_activity_table_name_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/table_details_activity_password_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="@string/table_details_activity_password_textView"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/table_details_activity_password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/table_details_activity_confirm_password_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="@string/table_details_activity_confirm_password_textView"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/table_details_activity_confirm_password_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:inputType="textPassword"
+            android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="15dp"
+            android:padding="15dp"
+            android:textSize="24sp"
+            android:layout_margin="20dp"
+            android:text="@string/table_details_activity_create_table_button"
+            android:id="@+id/table_details_activity_create_table_button"
+            android:background="@drawable/buttons"
+            android:textColor="@color/white"
+            />
+
+</LinearLayout>

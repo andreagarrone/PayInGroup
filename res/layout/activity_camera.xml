@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    >
+    <ImageView
+        android:id="@+id/camera_activity_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="9"
+        />
+
+    <Button
+        android:id="@+id/camera_activity_button_capture"
+        android:text="@string/camera_activity_confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

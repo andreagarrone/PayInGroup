@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/table_searched_activity_empty_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:visibility="invisible"/>
+    <ListView
+        android:id="@+id/table_searched_activity_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="10">
+    </ListView>
+
+    <Button
+        android:id="@+id/table_searched_activity_calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/table_searched_activity_calculate_button"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>

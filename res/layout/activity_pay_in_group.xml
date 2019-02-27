@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.andre.payingroup.PayInGroupActivity">
+
+
+    <EditText
+        android:id="@+id/payingroup_activity_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="SEARCH TABLE"
+        android:textAlignment="center"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_weight="3"
+        android:textSize="24sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/payingroup_activity_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="80dp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/payingroup_activity_create_table_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="80dp"
+        android:background="@drawable/buttons"
+        android:padding="15dp"
+        android:text="@string/payingroup_activity_create_table_button"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="COME FUNZIONA?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Crea il tavolo colui che paga il conto per tutti"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi non crea il tavolo utilizza la ricerca per trovarlo ed accedervi"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="FAQ"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Come creo un tavolo?"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserisco un nome identificativo e una password(che ne garantirà l'accesso da parte di tutti e soli i partecipanti), dopodichè clicco sul tasto di creazione. A quel punto si aprirà la fotocamera che mi permetterà di fotografare lo scontrino e ottenere il conto completo del pasto. Una volta confermato il conto, verrà creata automaticamente la pagina del tavolo."
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Come cerco un tavolo?"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="La ricerca avviene attraverso l'apposita barra, una volta trovato il tavolo, inserisco il nome e la password forniti dal creatore. Dopo aver cliccato sul tasto di conferma, se le credenziali di accesso sono corrette, verrò reindirizzato alla pagina del tavolo."
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+</LinearLayout>

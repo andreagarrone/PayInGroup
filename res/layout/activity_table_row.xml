@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/table_row_activity_products_textView"
+            android:layout_margin="10dp"/>
+
+        <CheckBox
+            android:id="@+id/table_row_activity_prices_checkBox"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="false"
+            android:layout_margin="10dp"/>
+    </TableRow>
+</TableLayout>

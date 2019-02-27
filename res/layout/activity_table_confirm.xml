@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE THE PRODUCTS YOU ORDERED FROM THE INVOICE"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_margin="20dp" />
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_margin="20dp">
+        <TableLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <EditText
+                    android:id="@+id/table_confirm_activity_invoice_editText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/table_confirm_activity_invoice_editText1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="3"
+                    android:inputType="textMultiLine"
+                    android:shrinkColumns="*"
+                    android:layout_marginLeft="20dp"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:id="@+id/table_confirm_activity_invoice_editText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:shrinkColumns="*"
+                    android:text="@string/table_confirm_activity_invoice_editText2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:layout_margin="10dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="CONFIRM"
+            android:id="@+id/table_confirm_activity_confirm_button"
+            android:background="@drawable/buttons"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="20dp" />
+    </TableRow>
+</TableLayout>

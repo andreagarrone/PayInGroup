@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/table_created_final_row_activity_products_textView"
+            android:layout_margin="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/table_created_final_row_activity_prices_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="viewEnd"
+            android:textSize="18sp"/>
+    </TableRow>
+
+</TableLayout>

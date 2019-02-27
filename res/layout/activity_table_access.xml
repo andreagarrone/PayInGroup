@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/table_access_activity_table_name_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/table_access_activity_password_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:text="@string/table_access_activity_password_textView"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/table_access_activity_password_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/table_access_activity_enter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="15dp"
+        android:padding="15dp"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:text="@string/table_access_activity_enter_button"
+        android:background="@drawable/buttons"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
