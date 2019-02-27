@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andre.payingroup">
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="PayInGroup"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:label="PayInGroup"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name=".PayInGroupActivity"
+            android:label="PayInGroup"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".TableDetailsActivity"
+            android:label="Table Details"
+            android:theme="@style/DialogTheme">
+        </activity>
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="Registration"
+            android:theme="@style/DialogTheme">
+        </activity>
+
+        <activity
+            android:name=".CameraActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".GuideActivity"
+            android:theme="@style/DialogTheme">
+
+        </activity>
+
+        <activity
+            android:name=".TableConfirmActivity"
+            android:theme="@style/AppTheme"
+            android:label="Your Table">
+
+        </activity>
+
+        <activity
+            android:name=".TableCreatedActivity"
+            android:theme="@style/AppTheme"
+            android:label="Your Table">
+
+        </activity>
+
+        <activity
+            android:name=".CalculatePaymentActivity"
+            android:theme="@style/DialogTheme"
+            android:label="PayInGroup">
+
+        </activity>
+
+        <activity
+            android:name=".TableSearchedActivity"
+            android:theme="@style/AppTheme"
+            android:label="Your Table">
+
+        </activity>
+
+        <activity
+            android:name=".TableAccessActivity"
+            android:theme="@style/DialogTheme"
+            android:label="PayInGroup">
+
+        </activity>
+
+        <activity
+            android:name="com.paypal.android.MEP.PayPalActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation">
+
+        </activity>
+
+        <activity
+            android:name=".UserProfileActivity"
+            android:theme="@style/DialogTheme"
+            android:label="Profile">
+
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.andre.payingroup.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+    </application>
+
+</manifest>
